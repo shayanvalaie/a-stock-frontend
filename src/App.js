@@ -2,7 +2,7 @@ import "./App.css";
 import Login from "./components/Login";
 import Home from "./components/Home";
 import BarcodeScanner from "./components/BarcodeScanner";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import CssBaseline from "@mui/material/CssBaseline";
 import Container from "@mui/material/Container";
 
