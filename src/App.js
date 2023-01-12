@@ -12,17 +12,9 @@ function App() {
       <Container maxWidth="lg">
         <Router>
           <Routes>
-            <Route exact path="/a-stock-frontend" element={<Login />} />
-            <Route
-              exact
-              path="/a-stock-frontend/Home"
-              element={<Home />}
-            ></Route>
-            <Route
-              exact
-              path="/a-stock-frontend/barCode"
-              element={<BarcodeScanner />}
-            ></Route>
+            <Route exact path="/" element={<Login />} />
+            <Route exact path="/Home" element={<Home />}></Route>
+            <Route exact path="/barCode" element={<BarcodeScanner />}></Route>
           </Routes>
         </Router>
       </Container>
